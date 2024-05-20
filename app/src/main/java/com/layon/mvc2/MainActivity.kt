@@ -67,7 +67,7 @@ class MainActivity : ComponentActivity(), ILoginView {
         }
     }
 
-    override fun OnLoginSucess(message: String?) {
+    override fun OnLoginSuccess(message: String?) {
         Toast.makeText(applicationContext, message, Toast.LENGTH_LONG).show()
     }
 

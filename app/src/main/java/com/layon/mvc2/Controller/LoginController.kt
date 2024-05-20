@@ -15,7 +15,7 @@ class LoginController(
             1 -> loginView.OnLoginError("Please enter a valid Email")
             2 -> loginView.OnLoginError("Please enter a Password")
             3 -> loginView.OnLoginError("Please enter a password greater the 6 char")
-            else -> loginView.OnLoginSucess("Login Sucessfull")
+            else -> loginView.OnLoginSuccess("Login Successfully")
         }
     }
 }
